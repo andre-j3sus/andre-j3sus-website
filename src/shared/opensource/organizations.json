@@ -6,8 +6,43 @@
       "__typename": "Organization"
     },
     {
+      "login": "isel-leic-ipw",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91895147?v=4",
+      "__typename": "Organization"
+    },
+    {
       "login": "bodybuilders-team",
       "avatarUrl": "https://avatars.githubusercontent.com/u/96534538?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "isel-leic-ls",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6451572?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "isel-leic-ave",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5501606?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "isel-leic-pc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22075587?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "isel-leic-tvs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99563943?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "isel-leic-daw",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10852760?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "isel-leic-pdm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6817318?v=4",
       "__typename": "Organization"
     }
   ]

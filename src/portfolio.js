@@ -77,17 +77,128 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-goodreads", // Reference https://fontawesome.com/icons/goodreads?style=brands
     backgroundColor: "#553B08", // Reference https://simpleicons.org/?q=goodreads
   },
-  /*{
-    name: "TV Time",
-    link: "https://www.tvtime.com/en/user/28579171/profile",
-    fontAwesomeIcon: "fa-tv", // Reference https://fontawesome.com/icons/tv?style=brands
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=tvtime
-  },*/
 ];
 
 const skills = {
-  /*data: [
+  data: [
     {
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Developing RESTful APIs using Node, Express & Spring",
+        "⚡ Building responsive website front end using React, Bootstrap & Material-UI",
+        "⚡ Developing mobile applications using Android, Jetpack Compose & Kotlin",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "simple-icons:css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#3178C6",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Material-UI",
+          fontAwesomeClassname: "simple-icons:material-ui",
+          style: {
+            color: "#0081CB",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#563D7C",
+          },
+        },
+        {
+          skillName: "Kotlin",
+          fontAwesomeClassname: "simple-icons:kotlin",
+          style: {
+            color: "#B125EA",
+          },
+        },
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            color: "#3DDC84",
+          },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: {
+            color: "#007396",
+          },
+        },
+        {
+          skillName: "Spring",
+          fontAwesomeClassname: "simple-icons:spring",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "Nginx",
+          fontAwesomeClassname: "simple-icons:nginx",
+          style: {
+            color: "#269539",
+          },
+        },
+      ],
+    },
+    /*{
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
@@ -127,127 +238,16 @@ const skills = {
           },
         },
       ],
-    },
+    },*/
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Other Technologies",
+      fileName: "ProgrammerImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Experience working with multiple database management systems",
+        "⚡ Hosting and maintaining applications on virtual machine instances and containers",
+        "⚡ Some experience working with Linux environment, C and low level programming",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
@@ -263,6 +263,13 @@ const skills = {
           },
         },
         {
+          skillName: "Elasticsearch",
+          fontAwesomeClassname: "simple-icons:elasticsearch",
+          style: {
+            color: "#005571",
+          },
+        },
+        {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
@@ -270,55 +277,45 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
           style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
+            color: "#F05032",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#F24E1E",
+            color: "#181717",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
           style: {
-            color: "#FF7C00",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "C",
+          fontAwesomeClassname: "simple-icons:c",
+          style: {
+            color: "#A8B9CC",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
           style: {
             color: "#000000",
           },
         },
       ],
     },
-  ],*/
-  softwareSkills: [
+  ],
+  /*softwareSkills: [
     {
       skillName: "HTML5",
       fontAwesomeClassname: "simple-icons:html5",
@@ -474,7 +471,7 @@ const skills = {
         color: "#181717",
       },
     },
-  ],
+  ],*/
 };
 
 // Education Page

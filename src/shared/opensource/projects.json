@@ -1,34 +1,31 @@
 {
   "data": [
     {
+      "id": "R_kgDOI6nkaQ",
+      "name": "battleships-web",
+      "createdAt": "2023-02-06T22:27:58Z",
+      "url": "https://github.com/bodybuilders-team/battleships-web",
+      "description": "Web-based Battleships game, featuring a front-end interface built with React and a back-end server for managing game logic and storing player data, built using Spring and JPA.",
+      "isFork": false,
+      "languages": []
+    },
+    {
+      "id": "R_kgDOI6np7A",
+      "name": "battleships-mobile",
+      "createdAt": "2023-02-06T22:33:29Z",
+      "url": "https://github.com/bodybuilders-team/battleships-mobile",
+      "description": "Android Battleships game built using Kotlin and Jetpack Compose. The game serves as a client application for the API developed in the \"battlehips-web\" project, utilizing RESTful API calls to communicate with the back-end server. ",
+      "isFork": false,
+      "languages": []
+    },
+    {
       "id": "R_kgDOHr0r2g",
       "name": "sports-api",
       "createdAt": "2022-07-19T19:19:53Z",
       "url": "https://github.com/bodybuilders-team/sports-api",
       "description": "The Sports API allows the user to perform creation and management of users, sports, routes and activities.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "Kotlin",
-          "iconifyClass": "logos-kotlin"
-        }
-      ]
+      "languages": []
     },
     {
       "id": "R_kgDOG3LMhg",
@@ -37,48 +34,7 @@
       "url": "https://github.com/bodybuilders-team/desktop-chess",
       "description": "Desktop chess, is, as the name implies, a desktop chess application, build in Kotlin using Compose for Desktop.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Kotlin",
-          "iconifyClass": "logos-kotlin"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzODI2OTA1MTQ=",
-      "name": "pathfinder-visualizer",
-      "createdAt": "2021-07-03T19:00:34Z",
-      "url": "https://github.com/andre-j3sus/pathfinder-visualizer",
-      "description": "A vizualizer for pathfinding and maze generation algorithms.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Kotlin",
-          "iconifyClass": "logos-kotlin"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGvTzEQ",
-      "name": "weather-app",
-      "createdAt": "2022-01-26T12:08:07Z",
-      "url": "https://github.com/andre-j3sus/weather-app",
-      "description": "Weather web application that displays the weather in a given city.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        }
-      ]
+      "languages": []
     },
     {
       "id": "R_kgDOGo6bHg",
@@ -87,12 +43,7 @@
       "url": "https://github.com/andre-j3sus/game-of-life",
       "description": "Conways Game of Life in C language.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "C",
-          "iconifyClass": "logos-c"
-        }
-      ]
+      "languages": []
     },
     {
       "id": "R_kgDOHgmaLw",
@@ -101,12 +52,7 @@
       "url": "https://github.com/andre-j3sus/isel-leic-notes",
       "description": "Some notes from the subjects of my degree in Computer Science and Engineering, at ISEL.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Markdown",
-          "iconifyClass": "logos-markdown"
-        }
-      ]
+      "languages": []
     }
   ]
 }
